@@ -1,0 +1,37 @@
+{
+  "name": "express_be",
+  "version": "1.0.0",
+  "description": "Backend using mongoDB for vitamin website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carl Davidson",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.28",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
